@@ -39,7 +39,7 @@ RUN echo "deb http://http.kali.org/kali kali-rolling main contrib non-free" \
 		xprobe2 \
 		cutycapt \
 		unicornscan \
-		waffit \
+		wafw00f \
 		host \
 		whois \
 		iputils-ping \
