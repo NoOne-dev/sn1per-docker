@@ -87,6 +87,8 @@ RUN echo "deb http://http.kali.org/kali kali-rolling main contrib non-free" \
 		ipaddress \
 		tldextract \
 		urllib3 && \
+	curl -sL https://deb.nodesource.com/setup_8.x | bash - && \
+	apt-get install -qq -y nodejs && \
 	git clone https://github.com/1N3/Sn1per.git && \
 	cd Sn1per && \
 	printf 'yes\nyes\nyes\n' | /bin/bash ./install.sh && \
